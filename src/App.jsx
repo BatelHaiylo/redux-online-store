@@ -1,9 +1,14 @@
-import './App.css'
+import React from 'react'
+import { Hero } from './components/Router/feature-router'
 
-export default function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      my app
+    <div>
+    <Hero/>
+    {/* <img src={logo} alt="" /> */}
     </div>
   )
-};
+}
+
+export default App
