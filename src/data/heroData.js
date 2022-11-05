@@ -1,4 +1,4 @@
-import heroBcg from '/images/maddenwood.webp';
+import heroBcg from "/images/maddenwood.webp"
 import characters from '/images/charectersbanner.png';
 import tv1 from '/images/tv1.jpg';
 import tv2 from '/images/tv2.jpg';
@@ -12,7 +12,7 @@ import twitter from "../assets/twitter.svg";
 import youtube from "../assets/youtube.svg";
 import messenger from "../assets/messenger.svg";
 
-export const HeroApi = {
+const HomePageApi = {
     title: "WELCOME TO MADDENWOOD",
     subtitle: "Do you have what it takes to make it in MADDENWOOD?",
 
@@ -31,4 +31,4 @@ export const HeroApi = {
       { icon: youtube },
     ],
   };
-  
+  export default HomePageApi

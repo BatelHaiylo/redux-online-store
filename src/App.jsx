@@ -1,12 +1,10 @@
 import React from 'react'
-import { Hero } from './components/Router/feature-router'
-
+import Home from './components/pages/Home/Home.component'
 
 const App = () => {
   return (
     <div>
-    <Hero/>
-    {/* <img src={logo} alt="" /> */}
+      <Home/>
     </div>
   )
 }

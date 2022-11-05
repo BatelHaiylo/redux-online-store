@@ -1,8 +1,7 @@
 import React from "react";
-import { HeroApi } from "../../../data/heroData";
 
-const Hero = () => {
-  console.log(HeroApi)
+const Hero = ({homeData}) => {
+  // console.log(homeData)
   return (
     <>
     <div>
@@ -16,7 +15,7 @@ const Hero = () => {
           <div></div>
         </div>
         <div>
-          <img src={} alt="hero img" />
+          <img src='{}' alt="hero img" className=""/>
         </div>
       </div>
     </div>
